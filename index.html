@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
+    <title>BusPaths</title>
+    <base href="/">
     <meta name="viewport" content="width=devide-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -118,7 +119,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Bitstarter</a>
+          <a class="brand" href="#">BusPaths</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -133,17 +134,17 @@
     <div class="container">
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Product</h1>
+          <h1>BusPaths</h1>
         </div>
       </div>
       <div class="row-fluid subheading">
         <div class="span12">
-          <p class="lead">One sentence description.</p>
+          <p class="lead">Finding your way.</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="img/02-main.png">
         </div>
 
         <div class="span5 actions">
@@ -151,17 +152,17 @@
             <div class="statistics">
               <div class="span4">
                 <div class="linediv-l">
-                  <h3>1000</h3> <p>backers</p>
+                  <h3>0</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
+                  <h3>$0</h3> <p>of $7,500</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                  <h3>10</h3> <p>days left</p>
+                  <h3>30</h3> <p>days left</p>
                 </div>
               </div>
             </div>
@@ -170,8 +171,8 @@
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
             <div class="thermometer progress active">
-              <div class="bar bar-success" style="width:60%;"></div>
-              <div class="bar bar-warning" style="width:40%;"></div>
+              <div class="bar bar-success" style="width:0%;"></div>
+              <div class="bar bar-warning" style="width:100%;"></div>
             </div>
           </div>
           <div class="span6 offset3 order">
@@ -191,11 +192,14 @@
 
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="img/03-search.png">
         </div>
         <div class="span5 copy">
           <p>
-Proin ut quam eros. Donec sed lobortis diam. Nulla nec odio lacus. Quisque porttitor egestas dolor in placerat. Nunc vehicula dapibus ipsum. Duis venenatis risus non nunc fermentum dapibus. Morbi lorem ante, malesuada in mollis nec, auctor nec massa. Aenean tempus dui eget felis blandit at fringilla urna ultrices. Suspendisse feugiat, ante et viverra lacinia, lectus sem lobortis dui, ultricies consectetur leo mauris at tortor. Nunc et tortor sit amet orci consequat semper. Nulla non fringilla diam. et tortor sit amet orci consequat semper. Nulla non fringilla diam. et tortor sit amet orci consequat semper. Nulla non fringilla diam. 
+<h3>Hello, everyone.</h3>
+I live in the city of Santa Cruz, Bolivia. Here in this city many people hate public transport: No online information on bus routes, (not yet arrived Street Views and other features of Google), the bus stops are not used properly, the main urban centers are congested and bus frequency is variable.<br>
+This is not good for the people and for tourists.<br>
+What I try to do, initially, is to map, manage and centralize all bus routes in the city, and then to provide users with the information they need to take buses to get from one point to another. These points can be landmarks (squares, museums, parks, fairs, supermarkets, banks, hospitals, etc ...) or places defined by users.
           </p>
         </div>
       </div>
@@ -203,11 +207,18 @@ Proin ut quam eros. Donec sed lobortis diam. Nulla nec odio lacus. Quisque portt
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum. Nulla vel aliquet libero. Vestibulum eget felis nec purus et tet tortor sit amet orci consequat semper. Nulla non fringilla diam. ortor sit amet orci consequat semper. Nulla non fringilla diam. commodo convallis. Aliquam erat volutpat. 
+
+I think this is useful for tourists, and people like me who do not know all bus lines or has a bad memory. (do'h)</p>
+<p>
+The next steps of the project are:
+<ul>
+<li>Get real-time information on the location of the buses and the approximate time it will take to get to our location. So users can find the time they need to wait for the buses.</li>
+<li>Use this information to gather statistics that could be used to help the council to better organize traffic.</li>
+</ul>
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="img/04-save.png">
         </div>
       </div>
 
@@ -218,32 +229,62 @@ Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis met
             <div class="accordion-group">
               <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                  What does FAQ stand for?
+                  What is the purpose of the project?
                 </a>
               </div>
               <div id="collapseOne" class="accordion-body collapse">
                 <div class="accordion-inner">
-                  Frequently Asked Question.
+                  Develop a web application for both desktop and mobile where you can see the states of the local references and buses.
                 </div>
               </div>
             </div>
             <div class="accordion-group">
               <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                  What's a Frequently Asked Question?
+                  How you use the money?
                 </a>
               </div>
               <div id="collapseTwo" class="accordion-body collapse">
                 <div class="accordion-inner">
-                  A question which is commonly asked by users.
+                  <ul>
+                    <li>Payment of wages during the time of development.</li>
+                    <li>Paid hosting web site.</li>
+                    <li>Maintenance and updating of application data.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                  What is the business model?
+                </a>
+              </div>
+              <div id="collapseThree" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  <ul>
+                    <li>Freemium for users.</li>
+                    <li>Monthly payments for companies and institutions.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                  What gets the backers?
+                </a>
+              </div>
+              <div id="collapseFour" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  Free access to the application with all current and future features.
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-
       <div class="row-fluid footer">
         <div class="span12">
           <p>
